@@ -1,3 +1,9 @@
 public class Transport {
-    public Transport(int speed);
+
+    float speed;
+    boolean work;
+
+    public Transport(float speed, boolean work) {
+
+    }
 }
