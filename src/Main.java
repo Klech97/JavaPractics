@@ -2,6 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Car logan = new Car(100, true);
+        logan.engine.serValues(true, 100);
+        logan.engine.info();
+
         //Transport car = new Transport(300);
 //        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
 //        // to see how IntelliJ IDEA suggests fixing it.
