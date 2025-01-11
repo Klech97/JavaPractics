@@ -7,6 +7,6 @@ public class Car extends Transport {
 
     public Car(float speed, boolean work, int passangers){
         super(speed, work);
-        this.passangers = passangers;
+        this.passangers = passangers; //1
     }
 }
