@@ -1,5 +1,6 @@
-public class Car extends Transport {
+public class Car extends Transport implements iLights{
     private int passangers;
+    private  boolean isOn;
     public Engine engine = new Engine();
 
     public Car(float speed, boolean work){
@@ -22,6 +23,13 @@ public class Car extends Transport {
     }
 
 
+    @Override
+    public void setLight(boolean set) {
+        this.isOn = set;
+    }
 
+    @Override
+    public void blinkLight() {
 
+    }
 }
